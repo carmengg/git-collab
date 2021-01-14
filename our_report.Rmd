@@ -20,3 +20,8 @@ ggplot(data = penguins,
   geom_point()
 ```
 
+```{r}
+adelie <- penguins %>%
+  filter(species == "Adelie")
+```
+
